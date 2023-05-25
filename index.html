@@ -1,21 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>hello how are you today?</p>
-    <p>I was only attaked by <b>two</b> ninja clans</p>
-</body><ul>
-    <li><a href="about.html">about Page</a></li>
-    <li><a href="gameFiles/game.html">My Game</a></li>
+    <title>Doggy</title>
 
-</ul>
-<p><a href="http://192.168.10.69:420/tutd?thumbs=up ">thumbs up</a></p>
-<p><a href="http://192.168.10.69:420/tutd?thumbs=down ">down</a></p>
-<p><a href="http://192.168.10.69:420/tutd?thumbs=wiggle ">wiggle</a></p>
-<p><a href="http://192.168.10.69:420/tutd?thumbs=oops ">oops</a></p>
-</html>
+    <style>
+        #centerBox {
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333333;
+            background-color:burlywood ;
+            margin: auto;
+            width: 25%;
+            padding: 10px;
+            overflow: auto;
+            border-radius: 0px 6px 0px 6px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Comic Sans MS;
+        }
+
+        .blogBox {
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid rgb(24, 209, 169);
+            background-color: rgb(173, 113, 60);
+            box-shadow: 2px 2px;
+            font-family: Comic Sans MS;
+            overflow: auto;
+        }
+
+
+        .blogBox p {
+            text-align: middle;
+        }
+
+        .blogBox img {
+            float: left;
+            max-width: 200px;
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 450px) {
+            .blogBox img {
+                float: none;
+                max-width: none;
+                width: 100%;
+            }
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 450px) {
+            #centerBox {
+                border-width: 0px;
+                border-style: solid;
+                border-color: #333333;
+                float: none;
+                max-width: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="centerBox">
+        <h1>#1 Victory Royale</h1>
+        <div class="blogBox">
+            <h2>Blog Post Title</h2>
+            <img src="dog.jpg">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit morbi, venenatis platea himenaeos dictum
+                curabitur inceptos semper, lacinia mollis scelerisque ad velit fermentum volutpat. Ultrices mollis
+                condimentum arcu ut facilisi risus nisl sapien et, ad varius placerat porta consequat non faucibus
+                egestas. Sem pellentesque vestibulum hendrerit proin venenatis potenti fames pretium ut dui senectus,
+                iaculis quis in molestie dis eleifend odio purus laoreet inceptos, sociis vulputate id hac est ad tempor
+                tincidunt egestas mauris. Fames risus torquent varius viverra cubilia convallis taciti dapibus, odio
+                ligula mi lacinia dictumst quam fringilla placerat, nunc cursus mus parturient suscipit et tempor.
+
+            </p>
+        </div>
+        <div class="blogBox">
+            <h2>Blog Post Title</h2>
+            <img src="dog.jpg">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit morbi, venenatis platea himenaeos dictum
+                curabitur inceptos semper, lacinia mollis scelerisque ad velit fermentum volutpat. Ultrices mollis
+                condimentum arcu ut facilisi risus nisl sapien et, ad varius placerat porta consequat non faucibus
+                egestas. Sem pellentesque vestibulum hendrerit proin venenatis potenti fames pretium ut dui senectus,
+                iaculis quis in molestie dis eleifend odio purus laoreet inceptos, sociis vulputate id hac est ad tempor
+                tincidunt egestas mauris. Fames risus torquent varius viverra cubilia convallis taciti dapibus, odio
+                ligula mi lacinia dictumst quam fringilla placerat, nunc cursus mus parturient suscipit et tempor.
+
+            </p>
+        </div>
+    </div>
+</body>

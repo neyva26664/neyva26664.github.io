@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatever</title>
+    <style>
+    h1 {
+        color:#FF00AF;
+            background-color: indigo;
+}
+
+#bigbox {
+    display: flex;
+
+    border: 1px solid black;
+}
+
+.smallBox {
+    background-color: blueviolet;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+
+<div id="bigbox">
+
+    <div class="smallBox">
+    Left box
+    </div>
+
+    <div class="smallBox">
+Right box
+    </div>
+</div>
+
+
+</body>
+
+</html>
